@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Snake Game w pygame
 
-_Get started using GitHub in less than an hour._
+Simple snake game coded in Python using pygame libray // snake makes silly noise when it eats //
 
 </header>
 
