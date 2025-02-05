@@ -80,11 +80,11 @@ class Food:
 
 
 # Sound/Music
-eat_sound = mixer.Sound(r"C:\Users\6mosc\OneDrive\Desktop\Python Things\Snake Game\nya.wav")
-game_over_sound = mixer.Sound(r"C:\Users\6mosc\OneDrive\Desktop\Python Things\Snake Game\game_over.wav") 
+eat_sound = mixer.Sound("nya.wav")
+game_over_sound = mixer.Sound("game_over.wav") 
 
 # Start background music (loop forever)
-pygame.mixer.music.load(r"C:\Users\6mosc\OneDrive\Desktop\Python Things\Snake Game\background.wav")  # Replace with your file
+pygame.mixer.music.load("background.wav")  # Replace with your file
 pygame.mixer.music.set_volume(0.5)  # Optional: 50% volume
 
 
